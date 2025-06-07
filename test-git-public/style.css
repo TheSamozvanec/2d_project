@@ -1,0 +1,28 @@
+body{
+	user-select: none;
+	background: whitesmoke;
+}
+div{
+	opacity: 0.5;
+	position: absolute;
+	width: 600px;
+	min-height: 100px;
+	border: 1px solid black;
+}
+div.off{display: none}
+canvas{
+	display: block;
+	border: 5px ridge rgb(12,187,184);
+	box-shadow: 5px 7px 5px 2px;
+}
+button{
+	background: green;
+}
+button.off{
+	background: red;
+}
+select{width: 200px}
+select.off{display: none}
+div table{
+	margin: 5px auto;
+}
