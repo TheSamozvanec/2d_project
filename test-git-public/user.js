@@ -26,9 +26,9 @@ let canv=document.querySelector('canvas'),
 	obj6=new Graph(new Figura('line',[-300,250],'green'),'static',400,100,rad(0)),
 	obj9=new Graph(new Figura('line',[-300,250],'red'),'static',500,300,rad(-90)),
 
-	map=[obj0,obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8], //глобальная переменнная - массив созданных объектов
+	//map=[obj0,obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8], //глобальная переменнная - массив созданных объектов
 	// переменная исппользуется в мониторе, в цикле обновления кадров и в методах проверки контакта объектов
-	map1=[obj0,obj6,obj9,obj8],
+	map=[obj0,obj6,obj9,obj8],
 	map2=[obj6,obj9],
 	keyCode=false; 
 obj1.name='rect x2';
